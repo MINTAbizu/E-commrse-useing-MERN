@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "currency-formatters": "^1.0.3",
+    "firebase": "^10.13.2",
+    "react-currency-format": "^1.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.26.2"
+  }
+}

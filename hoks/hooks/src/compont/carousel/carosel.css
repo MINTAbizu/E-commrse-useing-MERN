@@ -1,0 +1,20 @@
+.heroimage::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom,
+    rgba(225,255,255,0),
+    rgb(255,255,255)
+    
+    );
+
+}
+.productrow{
+    display: flex;
+    z-index: 1;
+    
+    margin: 35px;
+    height: 400px;
+}

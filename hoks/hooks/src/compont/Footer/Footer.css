@@ -1,0 +1,74 @@
+.Footer {
+	font-size: 14px;
+	background-color: #232f3e;
+	width: 100%;
+	/* max-width: 400px; */
+}
+
+.Footer li {
+	list-style-type: none;
+}
+.Footer a,
+.Footer__lang {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.backToTop {
+	background-color: #3c495f;
+}
+.backToTop:hover {
+	background-color: #485769;
+}
+
+.Footer a:hover {
+	text-decoration: underline;
+}
+
+.backToTop a:hover {
+	text-decoration: none;
+}
+.build_by {
+	color: #ffc505e0;
+	font-style: italic;
+	
+}
+.build_by:hover {
+	color: rgb(222, 174, 2);
+	text-shadow: 2px 2px 4px rgb(237, 74, 24);
+
+}
+.Footer__lang select {
+	background-color: #232f3e;
+	color: #dddddd;
+	font-size: 15px;
+	/* padding: 6px; */
+}
+
+.Footer__lang select option {
+	background-color: white;
+	color: #333;
+}
+.Footer__wrapper h6 {
+	color: white;
+}
+
+.backToTop a {
+	text-align: center;
+}
+
+.footer__logo {
+	width: 80px;
+	object-fit: contain;
+	margin: 0 20px;
+}
+
+.flag {
+	width: 20px;
+}
+
+@media screen and (max-width: 593px) {
+	.Footer {
+		width: 593px;
+	}
+}
